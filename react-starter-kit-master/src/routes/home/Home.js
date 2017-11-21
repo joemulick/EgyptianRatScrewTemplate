@@ -10,6 +10,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import { Button } from 'react-bootstrap';
 import s from './Home.css';
 
 class Home extends React.Component {
@@ -27,7 +28,7 @@ class Home extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <h1>sadfasdf News</h1>
+          <Button bsStyle="primary">Primary</Button>
           {this.props.news.map(item => (
             <article key={item.link} className={s.newsItem}>
               <h1 className={s.newsTitle}>
