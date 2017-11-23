@@ -36,6 +36,10 @@ const routes = {
       load: () => import(/* webpackChunkName: 'about' */ './about'),
     },
     {
+      path: '/game',
+      load: () => import(/* webpackChunkName: 'game' */ './game'),
+    },
+    {
       path: '/privacy',
       load: () => import(/* webpackChunkName: 'privacy' */ './privacy'),
     },

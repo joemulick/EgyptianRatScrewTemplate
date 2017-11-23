@@ -16,28 +16,6 @@
 
 .container {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 40px;
   max-width: var(--max-content-width);
 }
-
-.innerContainer {
-  margin: auto;
-  max-width: 500px;
-  max-height: 500px;
-  position: fixed;
-  top: 35%;
-  left: 50%;
-
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-
-pre {
-  white-space: pre-wrap;
-  font-size: 0.875rem;
-}
-
-img {
-  max-width: 100%;
-}
-
