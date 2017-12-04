@@ -19,7 +19,7 @@ boilerplate for web development built on top of [Node.js](https://nodejs.org/),
 tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/)
 and [Browsersync](http://www.browsersync.io/). Helping you to stay productive
 following the best practices. A solid starting point for both professionals and
-newcomers to the industry.
+newcomers to the industry. Redux
 
 **See** [getting started guide](./docs/getting-started.md), [demo][demo],
 [docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs),
